@@ -7,6 +7,8 @@ docopt-go
 
 An implementation of [docopt](http://docopt.org/) in the [Go](http://golang.org/) programming language.
 
+Note: this is a clone from [github.com/docopt/docopt.go](https://github.com/docopt/docopt-go) with and adjustment to use go modules.
+
 **docopt** helps you create *beautiful* command-line interfaces easily:
 
 ```go
@@ -14,7 +16,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/docopt/docopt-go"
+	"github.com/nieuwenhoven/docopt-go"
 )
 
 func main() {
@@ -47,13 +49,13 @@ Options:
 ⚠ Use the alias "docopt-go". To use docopt in your Go code:
 
 ```go
-import "github.com/docopt/docopt-go"
+import "github.com/nieuwenhoven/docopt-go"
 ```
 
-To install docopt in your `$GOPATH`:
+To install docopt:
 
 ```console
-$ go get github.com/docopt/docopt-go
+$ go get github.com/nieuwenhoven/docopt-go
 ```
 
 ## API
@@ -103,7 +105,7 @@ var config struct {
 opts.Bind(&config)
 ```
 
-More documentation is available at [godoc.org](https://godoc.org/github.com/docopt/docopt-go).
+More documentation is available at [godoc.org](https://godoc.org/github.com/nieuwenhoven/docopt-go).
 
 ## Unit Testing
 

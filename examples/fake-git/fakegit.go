@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/docopt/docopt-go"
+	"github.com/nieuwenhoven/docopt-go"
 	"os"
 	"os/exec"
 )
